@@ -2,14 +2,14 @@ import numpy as np
 from scipy.spatial import KDTree
 
 # Define the paths for the files
-biatrial_vertices_file = '/home/ovaisderi/Documents/reproducible_example3/target_path_ra/Utah3.pts'
-vertices_file_RA = '/home/ovaisderi/Documents/reproducible_example3/target_path_ra/RA_epi.pts'
-vertices_file_LA = '/home/ovaisderi/Documents/reproducible_example3/target_path/LA_epi.pts'
+biatrial_vertices_file = '(addpath)/target_path_ra/Utah3.pts'
+vertices_file_RA = '(addpath)/target_path_ra/RA_epi.pts'
+vertices_file_LA = '(addpath)/target_path/LA_epi.pts'
 
 # LAT file paths
-dat_file_RA = '/home/ovaisderi/Documents/reproducible_example3/target_path_ra/RALAT_Spiral4_B_Aug10.dat'
-dat_file_LA = '/home/ovaisderi/Documents/reproducible_example3/target_path/LAT_Spiral4_B_Aug10.dat'
-output_dat_file = '/home/ovaisderi/Documents/reproducible_example3/combined_LAT.dat'
+dat_file_RA = '(addpath)/target_path_ra/RALAT_Spiral4_B_Aug10.dat'
+dat_file_LA = '(addpath)/target_path/LAT_Spiral4_B_Aug10.dat'
+output_dat_file = '(addpath)/combined_LAT.dat'
 
 # Load vertices from the .pts files
 # Skip the first line, which might be a header, hence 'skiprows=1'
