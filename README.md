@@ -1,3 +1,6 @@
+
+Code for seeding four spiral wave re-entries to intialize bi-atrial AF simulations 
+
 Setup Instructions
 
 Step 1: Create Conda Environment
