@@ -3,8 +3,7 @@ Code for seeding four spiral wave re-entries to intialize bi-atrial AF simulatio
 
 Setup Instructions
 
-Step 1: Create Conda Environment
-Create a Conda environment, install the UAC package (detailed instructions on installing UAC package available on ), and ensure it is added to the Python path by modifying your system's environment variables (using .bashrc on Linux or the System Properties on Windows). Then, activate the environment: (conda activate UAC)
+Step 1: Create Conda environment, install the UAC package (detailed instructions on installing UAC package available on ), and ensure it is added to the Python path by modifying your system's environment variables (using .bashrc on Linux or the System Properties on Windows). Then, activate the environment: (conda activate UAC)
 
 
 Step 2: Run Scripts
