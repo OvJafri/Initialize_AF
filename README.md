@@ -10,8 +10,11 @@ Step 2: Run Scripts
 After setting up the environment, first run the script titled: python lat_field_biatrial_bilayer_meshtool3.py. Follow the example below (0.3 and 0.6 are the locations of coordinates i.e. xcen and ycen for seeding four spiral wave re-entries) :-
 
 python lat_field_biatrial_bilayer_meshtool3.py (path to folder)/target_path/ (path to folder)/target_path_ra/ LAT_Spiral4_B_Aug10.dat RA_epi Utah3 0.3 0.6
-I wrote a small script (CombinedLAT.py) that takes two maps and combines them into a single one. To run the script, use the following commands:
 
-AFter the first script run the file: python CombinedLAT.py
+After running the script lat_field_biatrial_bilayer_meshtool3.py, please run CombinedLAT.py (I wrote a small script CombinedLAT.py that takes the maps for RA and LA and combines them into a single map for prescribing initial conditions for driving AF simulations as per location of spirals entered by user). 
+
+To run the script CombinedLAT.py , simply use the following commands:
+
+python CombinedLAT.py
 
 Final Output to be used in .par file for running AF simulations: Combined_LAT.dat
