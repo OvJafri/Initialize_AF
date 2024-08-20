@@ -17,4 +17,5 @@ To run the script CombinedLAT.py , simply use the following commands:
 
 python CombinedLAT.py
 
-Final Output to be used in .par file for running AF simulations: Combined_LAT.dat
+Running above scripts in UAC environment will generate the final Output to be used in .par file for running AF simulations: Combined_LAT.dat
+Use Combined_LAT.dat in the carp parameter file (.par file) for running your AF simulations.
