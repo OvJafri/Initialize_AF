@@ -11,7 +11,7 @@ After setting up the environment, first run the script titled: python lat_field_
 
 python lat_field_biatrial_bilayer_meshtool3.py (path to folder)/target_path/ (path to folder)/target_path_ra/ LAT_Spiral4_B_Aug10.dat RA_epi Utah3 0.3 0.6
 
-After running the script lat_field_biatrial_bilayer_meshtool3.py, please run CombinedLAT.py (I wrote a small script CombinedLAT.py that takes the maps for RA and LA and combines them into a single map for prescribing initial conditions for driving AF simulations as per location of spirals entered by user). 
+After running the script lat_field_biatrial_bilayer_meshtool3.py, please run CombinedLAT.py. I wrote a small script, CombinedLAT.py, that combines the maps for the RA and LA into a single map for prescribing initial conditions for driving AF simulations, based on the locations of spirals entered by the user. 
 
 To run the script CombinedLAT.py , simply use the following commands:
 
